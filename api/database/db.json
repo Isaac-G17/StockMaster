@@ -1,0 +1,39 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Teclado Mecánico RGB",
+      "precio": 189.99,
+      "stock": 15,
+      "descripcion": "Teclado mecánico con iluminación RGB y switches azules."
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Gamer Inalámbrico",
+      "precio": 129.5,
+      "stock": 20,
+      "descripcion": "Mouse ergonómico inalámbrico con sensor de alta precisión."
+    },
+    {
+      "id": 3,
+      "nombre": "Monitor Full HD 24 Pulgadas",
+      "precio": 799.99,
+      "stock": 8,
+      "descripcion": "Monitor IPS Full HD ideal para trabajo y gaming."
+    },
+    {
+      "id": 4,
+      "nombre": "Audífonos Bluetooth",
+      "precio": 249.9,
+      "stock": 12,
+      "descripcion": "Audífonos inalámbricos con cancelación de ruido."
+    },
+    {
+      "id": 5,
+      "nombre": "Disco SSD 1TB",
+      "precio": 459.0,
+      "stock": 10,
+      "descripcion": "Unidad SSD de 1TB con alta velocidad de lectura y escritura."
+    }
+  ]
+}
