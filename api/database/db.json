@@ -4,13 +4,13 @@
       "id": 1,
       "nombre": "Teclado Mecánico RGB",
       "precio": 189.99,
-      "stock": 15,
+      "stock": 9,
       "descripcion": "Teclado mecánico con iluminación RGB y switches azules."
     },
     {
       "id": 2,
       "nombre": "Mouse Gamer Inalámbrico",
-      "precio": 129.5,
+      "precio": 129.50,
       "stock": 20,
       "descripcion": "Mouse ergonómico inalámbrico con sensor de alta precisión."
     },
@@ -24,8 +24,8 @@
     {
       "id": 4,
       "nombre": "Audífonos Bluetooth",
-      "precio": 249.9,
-      "stock": 12,
+      "precio": 249.99,
+      "stock": 2,
       "descripcion": "Audífonos inalámbricos con cancelación de ruido."
     },
     {
