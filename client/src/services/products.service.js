@@ -2,8 +2,9 @@ export function printProducts(listproducts) {
   const table = document.getElementById("inventory-list");
   table.innerHTML = ``;
 
+  // Bucle que recorre la lista de productos y mostrar la información de cada producto
   for (const product of listproducts) {
-
+    // stock con color dinámico según disponibilidad,
     let stockClass = "";
 
     if (product.stock < 3) {
@@ -14,6 +15,7 @@ export function printProducts(listproducts) {
       stockClass = "bg-emerald-50 text-emerald-600 border-emerald-100";
     }
 
+    // Se agrega dinámicamente una fila a la tabla mostrando la información de cada producto
     table.innerHTML += `
         <tr class="hover:bg-slate-50/30 transition-colors group">
             <td class="px-8 py-6">
@@ -28,12 +30,12 @@ export function printProducts(listproducts) {
             <td class="px-8 py-6 text-center font-bold text-slate-900">$${product.precio}</td>
             <td class="px-8 py-6 text-right">
                 <div class="flex justify-end gap-3">
-                <button class="w-10 h-10 flex items-center justify-center text-indigo-600 hover:bg-indigo-50 rounded-xl transition-all border border-transparent hover:border-indigo-100" title="Editar">
+                <button data-id= "${product.id}" class="w-10 h-10 flex items-center justify-center text-indigo-600 hover:bg-indigo-50 rounded-xl transition-all border border-transparent hover:border-indigo-100" title="Editar">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                     </svg>
                 </button>
-                <button class="w-10 h-10 flex items-center justify-center text-rose-600 hover:bg-rose-50 rounded-xl transition-all border border-transparent hover:border-rose-100" title="Eliminar">
+                <button data-id= "${product.id}" class="w-10 h-10 flex items-center justify-center text-rose-600 hover:bg-rose-50 rounded-xl transition-all border border-transparent hover:border-rose-100" title="Eliminar">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
                     </svg>

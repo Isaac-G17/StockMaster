@@ -1,39 +1,54 @@
 {
   "productos": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Teclado Mecánico RGB",
       "precio": 189.99,
       "stock": 9,
       "descripcion": "Teclado mecánico con iluminación RGB y switches azules."
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Mouse Gamer Inalámbrico",
-      "precio": 129.50,
+      "precio": 129.5,
       "stock": 20,
       "descripcion": "Mouse ergonómico inalámbrico con sensor de alta precisión."
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Monitor Full HD 24 Pulgadas",
       "precio": 799.99,
       "stock": 8,
       "descripcion": "Monitor IPS Full HD ideal para trabajo y gaming."
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Audífonos Bluetooth",
       "precio": 249.99,
       "stock": 2,
       "descripcion": "Audífonos inalámbricos con cancelación de ruido."
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Disco SSD 1TB",
-      "precio": 459.0,
+      "precio": 459,
       "stock": 10,
       "descripcion": "Unidad SSD de 1TB con alta velocidad de lectura y escritura."
+    },
+    {
+      "nombre": "silla gamer ergonómica",
+      "precio": 1299.99,
+      "stock": 5,
+      "descripcion": "silla ergonómica con soporte lumbar y reclinación ajustable.",
+      "id": "bMOBUj0066g"
+    },
+    {
+      "nombre": "webcam full hd",
+      "precio": 219.99,
+      "stock": 18,
+      "descripcion": "cámara web full hd con micrófono integrado ideal para videollamadas y streaming.",
+      "id": "JbqOT0GcFnE"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
